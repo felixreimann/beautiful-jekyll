@@ -1,73 +1,15 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: We have moved
+subtitle: ...better late than never
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [opt4j, jreliablity, opendse, github]
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+All our distributed system design projects have now moved from Sourceforge to Github.
+* [Opt4J](http://opt4j.org) is a framework for multi-objective optimization which allows you to do both tasks easily, either add new heuristic optimization algorithms or use state of the art optimizers for your real world problem.
+* [OpenDSE](https://github.com/felixreimann/opendse) uses Opt4J for the specific problem of distributed and/or embedded systems optimization, solving the design space exploration problem.
+* [JReliablity](http://jreliability.org/) is a calculator engine for reliablity measures, such as mean time to failure etc. for complex systems.
 
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+We are currently planning to create an Github organization to hold all these different efforts.
