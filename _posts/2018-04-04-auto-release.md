@@ -8,8 +8,8 @@ tags: [opt4j, github, gradle, travis]
 ---
 
 The next step has been made to simplify the release process. Currently, the following manual steps are neccessary:
-1 Create a new release on Github (this creates an annotated tag) as described [here](https://github.com/felixreimann/opt4j/wiki/Releasing)
-2 Upload the stuff to Maven Central with `./gradlew uploadArchives`
+1. Create a new release on Github (this creates an annotated tag) as described [here](https://github.com/felixreimann/opt4j/wiki/Releasing)
+1. Upload the stuff to Maven Central with `./gradlew uploadArchives`
 
 The following steps are automated using [Travis](http://travis-ci.org/) based Continuous Integration for each commit, pull request and tag (see manual step 1):
 * The version number, Gradle uses, is computed with `git describe` resulting in the tag name created in step 2. Otherwise, -SNAPSHOT is attached.
@@ -19,7 +19,7 @@ The following steps are automated using [Travis](http://travis-ci.org/) based Co
   * [Coveralls](https://coveralls.io/github/felixreimann/opt4j) and, thanks to Fedor,
   * [Codacy](https://app.codacy.com/app/felixreimann/opt4j/dashboard), which directly incorporates [PMD](https://pmd.github.io/) for static code analysis.
 
-As we created a tag in manual step 1, Travis starts the deployment phase (keyword: on tags):
+As we created a tag in manual step 1, Travis also starts the deployment phase (keyword: on tags):
 * The files in gradle's `build/distributions`, i.e., the standalone application with all dependent jars are uploaded to Github, which already contains the ziped and tared source files.
 * The website, built with `./gradlew website`, includes the links to the new version and is uploaded to Github Pages, using the built-in Travis deployment provider.
 
