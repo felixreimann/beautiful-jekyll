@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Releasing. Or: Keep it as simple as possible
-subtitle: ...otherwise, you won't remember
+title: Towards 1 click releasing
+subtitle: Keep it as simple as possible otherwise, you won't remember
 gh-repo: felixreimann/opt4j
 gh-badge: [star, fork, follow]
 tags: [opt4j, github, gradle, travis]
