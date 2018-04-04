@@ -2,7 +2,7 @@
 layout: post
 title: We have moved
 subtitle: ...better late than never
-gh-repo: daattali/beautiful-jekyll
+gh-repo: felixreimann/felixreimann.github.io
 gh-badge: [star, fork, follow]
 tags: [opt4j, jreliablity, opendse, github]
 ---
