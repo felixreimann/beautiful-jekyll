@@ -25,10 +25,10 @@ description: random stuff, mostly as a memo to myself
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+    - Opt4J: "http://opt4j.org/"
+    - OpenDSE: "https://github.com/felixreimann/opendse"
+    - JReliability: "http://jreliability.org/"
+
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
