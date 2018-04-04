@@ -4,13 +4,4 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+My name is Felix Reimann and I am currently working as developer for Audi Electronic Ventures GmbH in the area of API design, realtime communication (esp. automotive Ethernet), development of domain specific languages, and distributed systems. Before, I was working as a researcher at Chair for Hardware/Software Co-Design, Friedrich-Alexander University Erlangen-Nürnberg where I graduated as Doktor-Ingenieur. My main focus is on design space exploration for distributed embedded systems.
